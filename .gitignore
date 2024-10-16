@@ -1,7 +1,6 @@
-.gitignore
-
 #Python cache
 __pycache__/
+*.gitignore
 
 #Trained Models
 *.pth
