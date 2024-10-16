@@ -2,12 +2,12 @@
 import os
 
 # Define the directory containing the files
-directory = '../adson_forceps_with_teeth/adson_forceps_with_teeth_dark/color_images'
+directory = 'path/to/dir'
 
 # Define the string to replace and the new string
-old_string = 'adson_forceps_without_teeth'
+old_string = 'old_name'
 
-new_string = 'adson_forceps_with_teeth'
+new_string = 'new_name'
 
 # Replace the string in all filenames in the directory
 for filename in os.listdir(directory):

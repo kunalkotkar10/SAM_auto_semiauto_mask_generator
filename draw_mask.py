@@ -5,8 +5,8 @@
 # from segment_anything import sam_model_registry, SamPredictor
 
 # # Define paths
-# image_dir = '../small_kelly_clamp/small_kelly_clamp_normal/color_images'       # Replace with your images directory path
-# output_dir = '../small_kelly_clamp/small_kelly_clamp_normal/masks'  # Replace with your desired output directory
+# image_dir = 'path/to/dir'       # Replace with your images directory path
+# output_dir = 'path/to/dir'  # Replace with your desired output directory
 # sam_checkpoint = 'sam_vit_h_4b8939.pth'  # Replace with the path to your SAM checkpoint
 # model_type = 'vit_h'  # Model type: 'vit_h', 'vit_l', or 'vit_b'
 
@@ -124,8 +124,8 @@ import cv2
 from segment_anything import sam_model_registry, SamPredictor
 
 # Define paths
-path = '../small_kelly_clamp/small_kelly_clamp_dark' 
-input_path = f'{path}/color_images/105_small_kelly_clamp_dark_color_1280x720.png'  # Replace with your images directory path or single image path 
+path = 'path/to/dir' 
+input_path = f'{path}/path/to/png'  # Replace with your images directory path or single image path 
 output_dir = f'{path}/masks'         # Replace with your desired output directory
 sam_checkpoint = 'sam_vit_h_4b8939.pth'                                    # Replace with the path to your SAM checkpoint
 model_type = 'vit_h'                                              

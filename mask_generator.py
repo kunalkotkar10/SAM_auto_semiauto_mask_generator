@@ -101,8 +101,8 @@
 #     print('Mask generation complete.')
 
 # if __name__ == '__main__':
-#     image_dir = '../crile/crile_normal/color_images'  # Directory containing the images
-#     output_dir = '../crile/crile_normal/automated_masks'  # Directory to save generated masks
+#     image_dir = 'path/to/dir'  # Directory containing the images
+#     output_dir = 'path/to/dir'  # Directory to save generated masks
 #     generate_automatic_masks(image_dir, output_dir)
 
 
@@ -239,6 +239,6 @@ def generate_automatic_masks(image_dir, output_dir):
     print('Mask generation complete.')
 
 if __name__ == '__main__':
-    image_dir = '../crile/crile_normal/color_images'  # Directory containing the images
-    output_dir = '../crile/crile_normal/automated_masks'  # Directory to save generated masks
+    image_dir = 'path/to/dir'  # Directory containing the images
+    output_dir = 'path/to/dir'  # Directory to save generated masks
     generate_automatic_masks(image_dir, output_dir)
