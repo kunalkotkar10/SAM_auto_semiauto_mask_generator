@@ -1,1 +1,1 @@
-This repo contains codes to use SAM for automatic and semi-automatic mask generation. The pretrained model used in this code can be downloaded from [text](https://drive.google.com/file/d/1aAgfYAh9hTECz8w5clWfU2mwQOkUlJrn/view?usp=sharing).
+This repo contains codes to use SAM for automatic and semi-automatic mask generation. The pretrained model used in this code can be downloaded from [here](https://drive.google.com/file/d/1aAgfYAh9hTECz8w5clWfU2mwQOkUlJrn/view?usp=sharing).
